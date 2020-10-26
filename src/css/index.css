@@ -19,7 +19,7 @@ body {
 
 .main-nav a {
   font-size: .95em;
-  color: #222;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   display: block;
@@ -30,6 +30,23 @@ body {
 .main-nav a:hover,
 .main-nav .active {
   color: #fff;
-  background: #3b80d1;
+  background: lightblue;
 }
 
+/* BOOKS NAV -------- */
+
+.books-nav a {
+  font-size: .75em;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1em;
+  transition: .2s;
+}
+
+.books-nav a:hover,
+.books-nav .active {
+  color: #fff;
+  background: lightblue;
+}
